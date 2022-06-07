@@ -1,9 +1,9 @@
 const {ClarifaiStub, grpc} = require("clarifai-nodejs-grpc");
 const stub = ClarifaiStub.grpc();
 
-const yourKey = ""
-const yourID = ""
-const yourApp = ""
+const yourKey = "103c0f8511d84e1fb8427c579b2e8fb3"
+const yourID = "popoder"
+const yourApp = "facedetector123"
 
 // Changes!!!
 const metadata = new grpc.Metadata();

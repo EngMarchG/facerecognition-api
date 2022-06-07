@@ -9,10 +9,10 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
-const yourHost = '' // CHANGES!!
-const yourUser = '' // CHANGES!!
-const yourPass = '' // CHANGES!!
-const yourDatabase = '' // CHANGES!!
+const yourHost = '127.0.0.1' // CHANGES!!
+const yourUser = 'interactor' // CHANGES!!
+const yourPass = 'hi' // CHANGES!!
+const yourDatabase = 'facerecognition-db' // CHANGES!!
 
 const db = knex({
   client: 'pg',
